@@ -1,0 +1,18 @@
+.app-shell {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  font-family: Arial, sans-serif;
+}
+
+.status-card {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border: 1px solid #dbe3ec;
+  border-radius: 0.75rem;
+  background: #ffffff;
+}
+
+.status-error {
+  color: #b91c1c;
+}
