@@ -1,0 +1,42 @@
+# Frontend
+node_modules/
+dist/
+build/
+coverage/
+
+# Environment
+.env
+.env.*
+
+# Maven / Spring Boot
+target/
+*.jar
+*.war
+*.ear
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Eclipse / STS
+.project
+.classpath
+.settings/
+.springBeans
+.sts4-cache/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp files
+*.tmp
+*.temp
+*.swp
+*.bak
