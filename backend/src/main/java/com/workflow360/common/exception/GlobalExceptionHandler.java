@@ -17,7 +17,7 @@ import jakarta.servlet.http.HttpServletRequest;
 public class GlobalExceptionHandler {
 	
 	@ExceptionHandler(InvalidRequestParameterException.class)
-	public ResponseEntity<ApiErrorResponse> handleInvalidRequestParameterException
+	public ResponseEntity<ApiErrorResponse> handleInvalidParameter
 	(InvalidRequestParameterException exception,
 			HttpServletRequest request){
 		
